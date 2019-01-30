@@ -69,6 +69,20 @@ Chaque instances de la classe audioImage, sera associé à des potentiomètre,
 et déclenche l’interface visuel. 
 
 
+################ Commentaires ##################
+
+Excellent projet! Peut-être un peu costaud pour une seule session...
+
+Cette session, je me concentrerais sur un seul des deux aspects proposés, soit:
+
+1) une application autonome qui applique des effets en temps réel sur une source audio en entrée.
+
+2) une application autonome qui produit une animation visuelle en réaction à une séquence audio déjà existante (ou rapidement composée!).
+
+À réfléchir!
+
+10/10
+
 
 
 
