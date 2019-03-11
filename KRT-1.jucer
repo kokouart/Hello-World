@@ -2,7 +2,7 @@
 
 <JUCERPROJECT name="KRT-1" companyName="K-art" version="1.0.0" userNotes="Audio processor graph."
               companyWebsite="Kart@" defines="" projectType="audioplug" pluginManufacturer="K-art"
-              pluginAUIsSandboxSafe="1" pluginFormats="buildAU,buildStandalone,buildUnity,buildVST3"
+              pluginAUIsSandboxSafe="1" pluginFormats="buildStandalone,buildVST3"
               id="ZIy8XZ" jucerVersion="5.4.3" pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsMidiEffectPlugin,pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
               pluginManufacturerCode="KART" pluginCode="K219">
   <MAINGROUP id="AHixRE" name="KRT-1">
@@ -28,7 +28,7 @@
     <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
   </MODULES>
   <EXPORTFORMATS>
-    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+    <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
         <CONFIGURATIONS name="Debug" isDebug="1" optimisation="1" targetName="KRT-1"/>
         <CONFIGURATIONS name="Release" isDebug="0" optimisation="3" targetName="KRT-1"/>
