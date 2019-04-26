@@ -9,14 +9,14 @@
 * 1. Énoncé
 
 
-  Traitement sonore avec effets visuels en temps réel.
+  Traitement sonore en temps réel. ( une espèce de delay simple )
 
 
 
 * 2. Description
 
 
- Ce programme permettra de contrôler le timbre d'une Trompette, qui peut enregistrer en mémoire du son avec lequel l’utilisateur pourra jouer à partir du clavier midi ou de l’ordinateur pour produire des effets visuels. Le son sera construit à partir d’une prise sonore en temps réel, le système sera multifacettes et le tout prendra la forme d’une application autonome.
+ Ce programme permettra de contrôler le timbre d'une Trompette ou tout fichier audio. Le son sera construit à partir d’une prise sonore en temps réel,le tout prendra la forme d’une application autonome.
 
 
 
@@ -25,9 +25,7 @@
 
 
 Audio  : Résonance + système Entrée + activation.
-Images : Résonnance(sonore) + excitation + production visuelle.
-Contrôles graphiques : Contrôle sur le timbre de la trompette, et le visuel .
-Mode de jeu : Son modifiable par les touches d’un clavier, activation de l’effet visuel.
+Contrôles graphiques : Contrôle sur le timbre de la trompette ou le fichier audio.
 
 
 
@@ -36,9 +34,7 @@ Mode de jeu : Son modifiable par les touches d’un clavier, activation de l’e
 
  
 Recherches sur le traitement en temps réel d’une source acoustique.
-Comment animer visuellement du son!
-Références :
-https://puredata.info/downloads/pure-data
+
 https://juce.com/learn
 
 
@@ -48,25 +44,20 @@ https://juce.com/learn
 
  
 
-Interaction musicale et visuelle en temps réel entre musicien et ordinateur. 
+Traitement musicale en temps réel entre musicien et ordinateur. 
 
 La résonance consiste en un certain nombre de partiels possédant chacun sa
 fréquence de résonance et son enveloppe temporelle propre.
- 
-Activation, la résonnance envoyée dans un système en Input qui contrôle le volume et le timbre
-du signal, couplée à l’excitation de l’effet visuel.
-
  
 
 
 
 * 6. Méthodes
 
-  Une classe audioImage contiendra un enregistreur de son en mémoire, couplé à des filters et des effets qui exciteront
-L’effet visuel.
+  Une application autonome à effets qui s'appliqueront pour traiter une source sonore.
 
-Chaque instances de la classe audioImage, sera associé à des potentiomètre, pour contrôler le timbre de la trompette
-et déclenche l’interface visuel. 
+
+Chaque instances de l'application, sera associé à des potentiomètres numériques, pour contrôler le timbre de la trompette.
 
 
 ################ Commentaires ##################
@@ -77,9 +68,18 @@ Cette session, je me concentrerais sur un seul des deux aspects proposés, soit:
 
 1) une application autonome qui applique des effets en temps réel sur une source audio en entrée.
 
-2) une application autonome qui produit une animation visuelle en réaction à une séquence audio déjà existante (ou rapidement composée!).
 
-À réfléchir!
+À noter;
+
+  J'ai problème avec l'affichage de mes paramètres:
+
+_ Gain
+_ Time
+_ Feedback
+
+ 
+Merci!
+
 
 10/10
 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="XaHAhe" name="KRPlayer" projectType="audioplug" jucerVersion="5.4.3"
+              pluginFormats="buildAU,buildStandalone,buildVST3" pluginAUMainType="'aufx'"
+              pluginVST3Category="Instrument" pluginRTASCategory="16">
+  <MAINGROUP id="HYaVID" name="KRPlayer">
+    <GROUP id="{7247422E-36C4-66C3-53C5-4A6ABA506E12}" name="Source">
+      <FILE id="UIYhuB" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="vZzrXN" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="RvTHRg" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="kb37jr" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="0" name="Debug" auBinaryLocation="/Library/Audio/Plug-Ins/Components"
+                       vst3BinaryLocation="/Library/Audio/Plug-Ins/VST3"/>
+        <CONFIGURATION name="Release" optimisation="3" isDebug="1" vst3BinaryLocation="/Library/Audio/Plug-Ins/VST3"
+                       userNotes="Exploration du temps de d&#233;lai sur de l'audio."/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../../../../../Users/km/DEVELOPER/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="1" JUCE_STRICT_REFCOUNTEDPOINTER="1"
+               JUCE_USE_MP3AUDIOFORMAT="1" JUCE_PLUGINHOST_VST3="1"/>
+</JUCERPROJECT>
